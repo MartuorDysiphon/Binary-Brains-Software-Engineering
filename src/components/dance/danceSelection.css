@@ -1,0 +1,141 @@
+section {
+  margin: 5rem 0;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-left: 4px solid var(--red-primary);
+  padding-left: 1.2rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-dark);
+}
+
+.section-header i {
+  font-size: 1.6rem;
+  color: var(--red-primary);
+}
+
+.dance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 3rem 0;
+  }
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+  .dance-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Additional styles for DanceCard component */
+.dance-card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  border: 1px solid var(--gray-border);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.dance-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red-primary);
+  box-shadow: 0 20px 30px -12px rgba(196, 30, 58, 0.1);
+}
+
+.card-media {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  background: var(--gray-soft);
+}
+
+.card-media img,
+.card-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.dance-card:hover .card-media img {
+  transform: scale(1.03);
+}
+
+.card-info {
+  padding: 1.5rem;
+}
+
+.card-info h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: var(--red-primary);
+}
+
+.detail-line {
+  display: flex;
+  gap: 12px;
+  margin: 0.6rem 0;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+.detail-line i {
+  width: 20px;
+  color: var(--red-primary);
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.watch-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+  background: var(--red-soft);
+  padding: 0.5rem 1.3rem;
+  border-radius: 40px;
+  color: var(--red-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+}
+
+.watch-link:hover {
+  background: var(--red-primary);
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .card-info h3 {
+    font-size: 1.3rem;
+  }
+}
