@@ -14,6 +14,8 @@ import contentDirector from './assets/team/members/kpkhiba.jpeg';
 import technicalLead from './assets/team/members/kjmorwamohube.jpg';
 import financialController from './assets/team/members/kj ramotete.jpeg';
 
+import groupPhoto from './assets/team/team.jpg';
+
 const Navigation = () => {
   const handleScroll = (e, targetId) => {
     e.preventDefault();
@@ -52,7 +54,7 @@ const Navigation = () => {
 
 const Hero = () => {
   return (
-    <section id="home" className="hero">
+    <div id="home" className="hero">
       <div className="hero-content">
         <div className="hero-badge">
           <i className="fas fa-drum"></i>
@@ -66,7 +68,7 @@ const Hero = () => {
           <span><i className="fas fa-users"></i> 6 minds · 1 vision</span>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
@@ -262,7 +264,7 @@ const TeamSection = () => {
       <div className="group-photo-container">
         <i className="fas fa-camera-retro"></i> Binary Brains — fieldwork in Mangaung, April 2026
         <div className="group-photo-wrapper">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=400&fit=crop" alt="Binary Brains team" className="group-photo" />
+          <img src={groupPhoto} alt="Binary Brains team" className="group-photo" />
         </div>
         <p className="group-photo-caption">
           <i className="fas fa-map-marker-alt"></i> Stakeholder engagement: Mangaung cultural forum, local dance troupes, oral historians
@@ -276,11 +278,6 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="footer-icons">
-          <i className="fab fa-github"></i>
-          <i className="fab fa-youtube"></i>
-          <i className="fas fa-envelope"></i>
-        </div>
         <p>© 2026 Binary Brains Software Engineering Group. All rights reserved.</p>
       </div>
     </footer>
