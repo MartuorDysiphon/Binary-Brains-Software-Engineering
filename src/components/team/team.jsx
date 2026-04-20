@@ -21,7 +21,7 @@ const TeamSection = () => {
   return (
     <section id="team">
       <div className="section-header">
-        <h2><i className="fas fa-brain"></i> Binary Brains — Meet the six brains</h2>
+        <h2><i className="fas fa-brain"></i>Meet the Six Binary Brains</h2>
         <i className="fas fa-code-branch"></i>
       </div>
       <div className="team-grid">
