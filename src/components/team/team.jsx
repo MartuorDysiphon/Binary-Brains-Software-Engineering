@@ -10,10 +10,10 @@ import financialController from '../../assets/team/members/kj ramotete.jpeg';
 
 const TeamSection = () => {
   const members = [
-    { name: 'B. Nikani', role: 'Project Manager', studentId: '224109373', image: projectManager },
+    { name: 'B. Nikani', role: 'Project Manager', studentId: '221026123', image: projectManager },
     { name: 'L.E. Lekhoba', role: 'Risk Manager', studentId: '221035310', image: riskManager },
     { name: 'T. Lebeko', role: 'Communications Officer', studentId: '223073835', image: communicationsOfficer },
-    { name: 'S.P. Khiba', role: 'Content Director', studentId: '221026123', image: contentDirector },
+    { name: 'S.P. Khiba', role: 'Content Director', studentId: '224109373', image: contentDirector },
     { name: 'K.J. Morwamohube', role: 'Technical Lead', studentId: '221039026', image: technicalLead },
     { name: 'K.J. Ramotete', role: 'Financial Controller', studentId: '222055729', image: financialController }
   ];
