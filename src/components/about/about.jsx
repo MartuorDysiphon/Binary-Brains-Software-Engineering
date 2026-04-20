@@ -5,7 +5,7 @@ function About () {
     return ( 
         <section id="about" className="about">
             <div className="section-header">
-                <h2><i className="fas fa-info-circle"></i> Binary Brains Information </h2>
+                <h2><i className="fas fa-info-circle"></i> About US </h2>
                 <i className="fas fa-info"></i>
             </div>
             <p className="about-description">
