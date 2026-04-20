@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import Navigation from './components/navbar/navbar';
+import About from './components/about/about';
 import Hero from './components/hero/hero';
 import DancesSection from './components/dance/danceSelection';
 import MultimediaSection from './components/multimedia/multimedia';
@@ -28,9 +29,10 @@ const App = () => {
       <Navigation />
       <Hero />
       <div className="container">
+        <About />
+        <TeamSection />
         <DancesSection />
         <MultimediaSection />
-        <TeamSection />
       </div>
       <Footer />
     </div>

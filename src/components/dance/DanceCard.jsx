@@ -22,7 +22,7 @@ const DanceCard = ({ title, image, details, videoId }) => {
         ) : (
           videoId ? (
             <iframe
-              src={`https://www.youtube.com/embed/${videoId}`}
+              src={`https://drive.google.com/file/d/${videoId}/preview`}
               title={title}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

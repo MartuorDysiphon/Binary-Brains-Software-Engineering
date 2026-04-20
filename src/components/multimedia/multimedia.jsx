@@ -1,6 +1,8 @@
 import React from 'react';
 import './multimedia.css';
 import VideoItem from './VideoItem';
+import groupPhoto from '../../assets/team/team.jpg';
+
 
 const MultimediaSection = () => {
   const videos = [
@@ -26,7 +28,19 @@ const MultimediaSection = () => {
       <div className="video-note">
         <i className="fas fa-check-circle"></i> All videos are available on our YouTube channel called "Binary Brains".
       </div>
+
+      <div className="group-photo-container">
+        <i className="fas fa-camera-retro"></i> Binary Brains — fieldwork in Mangaung, April 2026
+        <div className="group-photo-wrapper">
+          <img src={groupPhoto} alt="Binary Brains team" className="group-photo" />
+        </div>
+        <p className="group-photo-caption">
+          <i className="fas fa-map-marker-alt"></i> Stakeholder engagement: Mangaung dance community, April 2026
+        </p>
+      </div>
     </section>
+
+    
   );
 };
 

@@ -10,7 +10,7 @@ const DancesSection = () => {
     {
       title: 'Amapiano',
       image: amaphianoDance,
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '18hLebpIBZiXXRCInsGpa2yP1tGZHQf9I',
       details: [
         { icon: 'fas fa-history', text: 'Origins: Early 2010s, South African townships (Gauteng – Pretoria & Johannesburg)' },
         { icon: 'fas fa-hand-sparkles', text: 'Cultural role: Social dance in clubs, street culture, youth identity & lifestyle' },
@@ -20,7 +20,7 @@ const DancesSection = () => {
     {
       title: 'Hip-Hop Dance',
       image: hipHopDance,
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '18hLebpIBZiXXRCInsGpa2yP1tGZHQf9I',
       details: [
         { icon: 'fas fa-city', text: 'Origins: 1970s, Bronx, New York City (USA), within hip-hop culture' },
         { icon: 'fas fa-chalkboard-user', text: 'Cultural role: Self-expression, battles, youth empowerment & storytelling' },
@@ -30,7 +30,7 @@ const DancesSection = () => {
     {
       title: 'Spiritual Dance',
       image: spiritualDance,
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '1qgWyR9OMaizynxfDfXtFcradsPVW1SAX',
       details: [
         { icon: 'fas fa-landmark', text: 'Origins: Indigenous African traditions, practiced for centuries in various ethnic groups' },
         { icon: 'fas fa-hands-helping', text: 'Cultural role: Rituals, ancestral communication, initiation ceremonies & community bonding' },
@@ -43,7 +43,7 @@ const DancesSection = () => {
     <section id="dances">
       <div className="section-header">
         <h2><i className="fas fa-shoe-prints"></i> Three living dances of Mangaung</h2>
-        {/* <i className="fas fa-arrow-right"></i> */}
+        <i className="fas fa-shoe-prints"></i>
       </div>
       <div className="dance-grid">
         {danceData.map((dance, idx) => (

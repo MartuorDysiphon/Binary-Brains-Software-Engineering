@@ -1,7 +1,6 @@
 import React from 'react';
 import './team.css';
 import TeamMember from './TeamMember';
-import groupPhoto from '../../assets/team/team.jpg';
 import projectManager from '../../assets/team/members/bnikani.jpeg';
 import riskManager from '../../assets/team/members/llekhoaba.jpeg';
 import communicationsOfficer from '../../assets/team/members/tlebeko.jpeg';
@@ -29,15 +28,6 @@ const TeamSection = () => {
         {members.map((member, idx) => (
           <TeamMember key={idx} {...member} />
         ))}
-      </div>
-      <div className="group-photo-container">
-        <i className="fas fa-camera-retro"></i> Binary Brains — fieldwork in Mangaung, April 2026
-        <div className="group-photo-wrapper">
-          <img src={groupPhoto} alt="Binary Brains team" className="group-photo" />
-        </div>
-        <p className="group-photo-caption">
-          <i className="fas fa-map-marker-alt"></i> Stakeholder engagement: Mangaung cultural forum, local dance troupes, oral historians
-        </p>
       </div>
     </section>
   );

@@ -30,6 +30,9 @@ const Navigation = () => {
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#home')}>
                 Home
               </button>
+              <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#about')}>
+                About
+              </button>
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#dances')}>
                 Dances
               </button>
