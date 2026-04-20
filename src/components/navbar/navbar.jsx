@@ -33,14 +33,14 @@ const Navigation = () => {
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#about')}>
                 About
               </button>
+              <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
+                Team
+              </button>
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#dances')}>
                 Dances
               </button>
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#multimedia')}>
-                Stories
-              </button>
-              <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
-                Team
+                Interviews
               </button>
             </div>
 
@@ -60,14 +60,17 @@ const Navigation = () => {
         <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#home')}>
           <i className="fas fa-home"></i> Home
         </button>
+        <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#about')}>
+          <i className="fas fa-info-circle"></i> About
+        </button>
+        <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
+          <i className="fas fa-brain"></i> Team
+        </button>
         <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#dances')}>
           <i className="fas fa-shoe-prints"></i> Dances
         </button>
         <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#multimedia')}>
-          <i className="fas fa-microphone-alt"></i> Stories
-        </button>
-        <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
-          <i className="fas fa-brain"></i> Team
+          <i className="fas fa-microphone-alt"></i> Interviews
         </button>
       </div>
     </>
