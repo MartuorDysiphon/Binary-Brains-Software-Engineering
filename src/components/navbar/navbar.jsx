@@ -33,9 +33,6 @@ const Navigation = () => {
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#about')}>
                 About
               </button>
-              <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
-                Team
-              </button>
               <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#dances')}>
                 Dances
               </button>
@@ -62,9 +59,6 @@ const Navigation = () => {
         </button>
         <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#about')}>
           <i className="fas fa-info-circle"></i> About
-        </button>
-        <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#team')}>
-          <i className="fas fa-brain"></i> Team
         </button>
         <button className="nav-link-btn" onClick={(e) => handleScroll(e, '#dances')}>
           <i className="fas fa-shoe-prints"></i> Dances
