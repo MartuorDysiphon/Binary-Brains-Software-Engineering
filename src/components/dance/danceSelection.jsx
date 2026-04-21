@@ -20,7 +20,7 @@ const DancesSection = () => {
     {
       title: 'Hip-Hop Dance',
       image: hipHopDance,
-      videoId: '18hLebpIBZiXXRCInsGpa2yP1tGZHQf9I',
+      videoId: '1VXe3cr5GS4JpbZrVN_WveD9MnCKjICHJ',
       details: [
         { icon: 'fas fa-city', text: 'Origins: 1970s, Bronx, New York City (USA), within hip-hop culture' },
         { icon: 'fas fa-chalkboard-user', text: 'Cultural role: Self-expression, battles, youth empowerment & storytelling' },
